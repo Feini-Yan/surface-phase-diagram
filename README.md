@@ -1,10 +1,22 @@
 # surface-phase-diagram
-Example Python workflow for first-principles surface phase-stability analysis over chemical-potential space
 
-This repository contains an illustrative Python workflow for constructing a two-dimensional surface phase diagram from first-principles total energies.
+Python workflow for first-principles surface phase-stability analysis over chemical-potential space.
 
-The workflow evaluates surface energies across chemical-potential space, identifies the thermodynamically preferred structure at each point, and visualizes the resulting phase-stability map.
+This repository provides an illustrative workflow for constructing two-dimensional surface phase diagrams from first-principles total-energy data.
 
-All numerical values and phase labels included here are synthetic and are provided solely to demonstrate the analysis workflow.
+The workflow evaluates chemical-potential-dependent surface energies for competing surface or interface structures, identifies the thermodynamically preferred phase at each point, and visualizes the resulting phase-stability map.
 
-Requirements: Python, NumPy, Matplotlib.
+## Key capabilities
+
+- Evaluate surface energies across chemical-potential space
+- Compare competing surface/interface structures
+- Identify thermodynamically preferred phases
+- Generate two-dimensional phase-stability maps
+
+The public example uses synthetic numerical values and phase labels for demonstration. The workflow reflects the phase-stability analysis used in my first-principles research.
+
+## Requirements
+
+- Python
+- NumPy
+- Matplotlib
